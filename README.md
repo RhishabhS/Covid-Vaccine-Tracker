@@ -5,10 +5,12 @@ A simple tracker for vaccine slots on CoWIN using api's from API Setu
 ## Steps
 ### Step 1: Reciever lists
 Fill the recievers excel sheet (recievers.xlsx) with all details in lower case. Ensure correct spellings. If you do not want to use either mail or whatsapp enter "no" (without quotes) instead
-### Step 2: Automation setup
+### Step 2: Whatsapp Web Automation setup
 Install Google Chrome (for whatsapp automation) and chromedriver (https://chromedriver.chromium.org/downloads) if you dont have them already. 
 Ensure that the version of chromedriver corresponds to that of Google chrome which is installed.
-Or you can use drivers of other browsers (research!) and edit the automation part accordingly
+Or you can use drivers of other browsers (research!) and edit the automation part accordingly.
+For the first use, connect to your whatsapp web using QR code on your phone. Your details are saved, so you won't need to do this everytime.
+Edit sleep times, depending on how much time it takes to load completely on your computer
 ### Step 3: Mail
 Set up a mail server account (Gmail account or any other domain) and edit the parts of the code used for sending the mail(commented in code)
 ### Step 4: District id setup
