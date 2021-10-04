@@ -88,7 +88,7 @@ for i in range(100000):
                 try:
                     s=smtplib.SMTP("smtp.gmail.com",587)
                     s.starttls()
-                    s.login("vaccinecheckkannur@gmail.com","vaccine@123")
+                    s.login("mail_id","password")  #Enter your mail ID and password
                 except:
                     print("Gmail Login failed...Check connectivity and settings")
                     
