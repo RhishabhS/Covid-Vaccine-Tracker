@@ -14,7 +14,7 @@ Set up a mail server account (Gmail account or any other domain) and edit the pa
 ### Step 4: District id setup
 Manually look up district ID's for corresponding districts (district_id_mapping.xlsx) and write accordingly. Or you can use VLOOKUP in excel to aoutomatically fill it for you.
 ### Step 5: Miscellaneous
-Convert xlsx to csv if you don't have excel (use to_csv() instead of to_xlsx())
+Convert xlsx to csv if you don't have excel (use read_csv/ to_csv() instead of read_excel/ to_excel() etc.)
 ### Enjoy!!!
 
 Word of caution: Do not misuse the automation part of whatsapp for spamming etc. You may get banned as per whatsapp policies.
