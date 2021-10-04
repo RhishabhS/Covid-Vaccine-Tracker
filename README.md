@@ -18,5 +18,5 @@ Manually look up district ID's for corresponding districts (district_id_mapping.
 ### Step 5: Miscellaneous
 Convert xlsx to csv if you don't have excel (use read_csv/ to_csv() instead of read_excel/ to_excel() etc.)
 ### Enjoy!!!
-
+(last tested on 04/10/2021)
 Word of caution: Do not misuse the automation part of whatsapp for spamming etc. You may get banned as per whatsapp policies.
